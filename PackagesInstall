@@ -1,0 +1,15 @@
+#bwa-v.0.7.17
+#Download: http://sourceforge.net/projects/bio-bwa/files/
+$ tar xvzf bwa-0.7.17.tar.bz2
+$ cd bwa-0.7.17
+$ make
+#Picard
+#Download: https://github.com/broadinstitute/picard/releases/
+$ tar xjf picard-tools.2.4.1.zip
+$ java -jar picard.jar -h
+#GATK4.1.4.1
+#Download: https://software.broadinstitute.org/gatk/download/
+$ java -jar gatk-package-4.1.4.1-local.jar
+$ java -jar gatk-package-4.1.4.1-spark.jar
+#GATK resource bundle (references)
+#Download: https://console.cloud.google.com/storage/browser/genomics-public-data/resources/broad/hg38/v0/
